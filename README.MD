@@ -6,7 +6,7 @@ Jobify is a job application management tool built using the MERN (MongoDB, Expre
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- Installation(#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 
 ## Features
