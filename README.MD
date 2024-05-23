@@ -6,8 +6,8 @@ Jobify is a job application management tool built using the MERN (MongoDB, Expre
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- Installation
-- Usage
+- Installation(#installation)
+- [Usage](#usage)
 
 ## Features
 - **User Authentication**: Sign up, log in, and log out with JWT authentication.
@@ -30,5 +30,22 @@ Before you begin, ensure you have met the following requirements:
 - MongoDB installed and running.
 
 ### Clone The Repository
+`git clone https://github.com/Avishkar-1505/Jobify-MERN.git` 
 
+`cd Jobify-MERN`
+### Setup
+1. Install dependencies
+`npm install`
 
+2. Create a .env file add the following environment variables:
+`MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret`
+
+3. Start the server:
+`npm start`
+
+## Usage
+
+1. Open your browser and go to http://localhost:3000.
+2. Sign up for a new account or log in if you already have one.
+3. Start adding, editing, and managing your job applications, contacts, and notes.
